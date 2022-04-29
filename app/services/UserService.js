@@ -14,6 +14,9 @@ class UserService {
 
         return info
     }
+    static updateUserUsername(user, newUsername){
+        user.username = newUsername
+    }
 }
 
 module.exports = UserService
